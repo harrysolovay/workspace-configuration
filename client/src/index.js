@@ -9,7 +9,7 @@ import Container from '~/styles'
 setGlobalStyles()
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <Container>
         <header>
