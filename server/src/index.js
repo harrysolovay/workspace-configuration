@@ -1,5 +1,6 @@
-import express from 'express'
-import data from '.data.json'
+
+const express = require('express')
+const data = require('./data.json')
 
 const app = express()
 app.use(express.json())
